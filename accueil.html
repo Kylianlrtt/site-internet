@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="icon" href="https://www.pelras.fr/premium-access-2020/media/images/pelras-logo.png" type="image/x-icon">
+    <title>BMW Pelras Legend | Véhicule d'exception</title>
+</head>
+
+<body onload="window.monFondu = new Fondu('images');">
+    <nav>
+            
+                <div class="menu-deroulant">☰
+                    <ul class="sous-menu">
+                        <li><a href="http://host-tp1/accueil.html"> Accueil </a></li>
+                        <li><a href="http://host-tp1/Actualités"> Actualités </a></li>
+                        <li><a href="http://host-tp1/menu.html">  Véhicules </a></li>
+                        <li><a href="http://host-tp1/Quisommesnous"> Services </a></li>
+                        <li><a href="http://host-tp1/Apropos"> A propos </a></li>
+                        <li><a href="http://host-tp1/Contacteznous"> Contactez-nous </a></li>
+                    </ul>
+                </div>
+    </nav>
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="https://partenaire.mini.fr/sites/default/files/2023-12/1703008929236.jpeg" alt="Image 1">
+            <div class="logo-container">
+                <img src="https://www.pelras.fr/premium-access-2020/media/images/pelras-logo.png" alt="Logo" class="logo">
+            </div>
+            <div class="caption"></div>
+        </div>
+
+        <div class="mySlides">
+            <img src="https://www.pelraslegend.fr/media/data/paragraphes_familles/images/couverture-51.jpg"
+                alt="Image 2">
+            <div class="logo-container">
+                <img src="https://www.pelras.fr/premium-access-2020/media/images/pelras-logo.png" alt="Logo"
+                    class="logo">
+            </div>
+            <div class="caption"></div>
+        </div>
+
+        <div class="mySlides">
+            <img src="https://file.b2b.carboatservices.fr/static/media/C048725/slideshow/C048725_1616837490961.jpg"
+                alt="Image 3">
+            <div class="logo-container">
+                <img src="https://www.pelras.fr/premium-access-2020/media/images/pelras-logo.png" alt="Logo"
+                    class="logo">
+            </div>
+            <div class="caption"></div>
+        </div>
+
+        <div class="mySlides">
+            <img src="https://w.forfun.com/fetch/b5/b53a38efe3c2353648b4a1d0315fbda3.jpeg" alt="Image 4">
+            <div class="logo-container">
+                <img src="https://www.pelras.fr/premium-access-2020/media/images/pelras-logo.png" alt="Logo"
+                    class="logo">
+            </div>
+            <div class="caption"></div>
+        </div>
+
+        <div class="mySlides">
+            <img src="https://w.forfun.com/fetch/5b/5bbf9d82f5d81552db34bc8f92cf3da1.jpeg" alt="Image 5">
+            <div class="logo-container">
+                <img src="https://www.pelras.fr/premium-access-2020/media/images/pelras-logo.png" alt="Logo"
+                    class="logo">
+            </div>
+            <div class="caption"></div>
+        </div>
+
+        <div class="mySlides">
+            <img src="https://www.fond-ecran-hd.net/Public/uploads/2019-03-26/fondycranhdaudietrongtnoirphoto.jpg"
+                alt="Image 6">
+            <div class="logo-container">
+                <img src="https://www.pelras.fr/premium-access-2020/media/images/pelras-logo.png" alt="Logo"
+                    class="logo">
+            </div>
+            <div class="caption"></div>
+        </div>
+
+        <div class="mySlides">
+            <img src="https://w.forfun.com/fetch/c0/c06a1b13851eb7df3f8ee103cc151486.jpeg" alt="Image 7">
+            <div class="logo-container">
+                <img src="https://www.pelras.fr/premium-access-2020/media/images/pelras-logo.png" alt="Logo"
+                    class="logo">
+            </div>
+            <div class="caption"></div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="progress-bar">
+            <div class="progress" style="width: 0;"></div>
+        </div>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var progressBar = document.querySelector(".progress");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+            progressBar.style.width = (slideIndex / slides.length) * 100 + "%";
+        }
+
+        var autoSlide = setInterval(function () {
+            plusSlides(1);
+        }, 3000);
+
+        function openMenu() {
+            window.location.href = "menu.html";
+        }
+    </script>
+
+</body>
+
+</html>

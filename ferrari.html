@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    body {
+      overflow-y: auto;
+    }
+
+    .car-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .car {
+      width: 48%; /* Chaque élément prend 48% de la largeur pour permettre deux colonnes */
+      margin: 1%; /* Ajout d'une petite marge entre les éléments */
+      padding: 15px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .car img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .car:hover {
+      transform: scale(1.05);
+    }
+
+    /* Vos autres styles restent inchangés */
+  </style>
+  <title>BMW Pelras Legend</title>
+</head>
+
+<body>
+  <header>
+    <img src="https://www.pelras.fr/showroom-mini/media/images/mini-full-noir.png" alt="BMW Logo"
+      style="width: 500px; height: auto;">
+    <h1>Pelras Legend</h1>
+  </header>
+
+  <div class="car-container">
+    <div class="car">
+      <a href="lamborghini.php" target="_blank">
+        <img src="car1.jpg" alt="à partir de 491 443$">
+        <div class="car-info">
+          <h3><img
+              src="https://images.squarespace-cdn.com/content/v1/5da451740e31e4217193ce0a/1672827145931-AVHBMAJXAO3PAY4DUEF8/Joinsteer_lld_Ferrari_812_Superfast_Novitec_800_ch_0.jpg"
+              alt="Ferrari Logo"></h3>
+          <h3>Ferrari 812 Superfast</h3>
+          <p>La Ferrari 812 Superfast est une voiture de sport GT (Gran Turismo). La 812 Superfast est équipée d'un moteur V12 atmosphérique de 6,5 litres, ce qui en fait la Ferrari de série avec le plus gros moteur V12. Il produit une puissance impressionnante, délivrant des performances exceptionnelles.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="car">
+      <a href="ferrari.php" target="_blank">
+        <img src="car2.jpg" alt="à partir de 204 172$">
+        <div class="car-info">
+          <h3><img src="https://images.caradisiac.com/logos-ref/modele/modele--ferrari-458-italia/S0-modele--ferrari-458-italia.jpg"
+              alt="Ferrari Logo"></h3>
+          <h3>Ferrari 458 Italia</h3>
+          <p>La 458 Italia est alimentée par un moteur V8 atmosphérique de 4,5 litres. Ce moteur est réputé pour son rendement élevé, sa réponse rapide et son son distinctif.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="car">
+      <a href="BMW.php" target="_blank">
+        <img src="https://photos.auto-moto.com/32/2020/09/photo_article/9171/77490/1200-L-nouvelle-ferrari-portofino-m-2020-infos-et-photos-officielles.webp"
+          alt="à partir de 212 227$">
+        <div class="car-info">
+          <h3>Ferrari Portofino</h3>
+          <p>La Portofino est équipée d'un moteur V8 turbocompressé de 3,9 litres, capable de produire une puissance considérable tout en offrant une réponse rapide.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="car">
+      <a href="audi.php" target="_blank">
+        <img src="https://sf2.autoplus.fr/wp-content/uploads/autoplus/2023/05/alain-prost-s-ferrari-f40-up-for-auction.jpg"
+          alt="à partir de 2 600 000$">
+        <div class="car-info">
+          <h3>Ferrari F40</h3>
+          <p>La F40 est équipée d'un moteur V8 biturbo de 2,9 litres, produisant une puissance impressionnante pour son époque. Le moteur est placé en position centrale arrière pour optimiser la répartition du poids.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</body>
+
+</html>

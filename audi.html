@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/styles.css" />
+  <style>
+    body {
+      overflow-y: auto;
+    }
+
+    .car-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .car {
+      width: 48%;
+      margin: 1%;
+      padding: 15px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .car img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .car:hover {
+      transform: scale(1.05);
+    }
+  </style>
+  <title>BMW Pelras Legend</title>
+</head>
+
+<body>
+  <header>
+    <img src="https://www.pelras.fr/showroom-mini/media/images/mini-full-noir.png" alt="BMW Logo"
+      style="width: 500px; height: auto;">
+    <h1>Pelras Legend</h1>
+  </header>
+
+  <div class="car-container">
+    <div class="car">
+      <a href="lamborghini.php" target="_blank">
+        <img src="car1.jpg" alt="à partir de 174 000$">
+        <div class="car-info">
+          <h3><img
+              src="https://www.courtage-expertise-auto.fr/wp-content/uploads/2023/10/Audi-R8_Coupe_V10_GT_RWD-2023-1280-02.jpg"
+              alt="Lamborghini Logo"></h3>
+          <h3>Audi R8</h3>
+          <p>L'Audi R8 est généralement équipée d'un moteur V10 atmosphérique. Le moteur peut varier en termes de cylindrée et de puissance, mais il est conçu pour offrir des performances impressionnantes.</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="car">
+      <a href="ferrari.php" target="_blank">
+        <img src="car2.jpg" alt="à partir de 63 900$">
+        <div class="car-info">
+          <h3><img
+              src="https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_1080,q_auto:eco,w_1920/v1/cms/uploads/oxczmnweuz23na55hbcf"
+              alt="Ferrari Logo"></h3>
+          <h3>Ferrari 458</h3>
+          <p>La Ferrari 458 Italia est alimentée par un moteur V8 atmosphérique de 4,5 litres. Ce moteur est réputé pour son rendement élevé, sa réponse rapide et son son distinctif.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="car">
+      <a href="BMW.php" target="_blank">
+        <img src="https://cdn.drivek.com/configurator-imgs/cars/fr/Original/BMW/SERIES-3/41131_SEDAN-4-DOORS/bmw-serie-3-front-view.jpg"
+          alt="à partir de 147 300$">
+        <div class="car-info">
+          <h3>BMW Serie 3</h3>
+          <p>La Série 3 présente un design élégant et dynamique avec des lignes nettes et une silhouette sportive. Au fil des générations, la Série 3 a évolué tout en conservant son attrait esthétique caractéristique.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="car">
+      <div class="car-info">
+        <h3><img
+            src="https://cdn.drivek.com/configurator-imgs/cars/fr/Original/AUDI/Q7/38866_SUV-5-PORTES/audi-q7-suv-2019-front-side-1.jpg"
+            alt="Audi Logo">Audi Q7</h3>
+        <h3> <img> </h3>
+        <p>L'Audi Q7 présente un design élégant et imposant, avec des lignes épurées et une silhouette robuste. Il affiche souvent la calandre caractéristique d'Audi et des détails esthétiques sophistiqués.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/styles.css" />
+  <style>
+    body {
+      overflow-y: auto;
+    }
+
+    .car-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .car {
+      width: 48%;
+      margin: 1%;
+      padding: 15px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .car img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .car:hover {
+      transform: scale(1.05);
+    }
+  </style>
+  <title>BMW Pelras Legend</title>
+</head>
+
+<body>
+  <header>
+    <img src="https://www.pelras.fr/showroom-mini/media/images/mini-full-noir.png" alt="BMW Logo"
+      style="width: 500px; height: auto;">
+    <h1>Pelras Legend</h1>
+  </header>
+
+  <div class="car-container">
+    <div class="car">
+      <a href="lamborghini.php" target="_blank">
+        <img src="car1.jpg" alt="à partir de 147 300$">
+        <div class="car-info">
+          <h3><img
+              src="https://images.caradisiac.com/images/8/1/1/5/168115/S0-bmw-devoile-la-m5-competition-avec-625-ch-552055.jpg"
+              alt="BMW Logo"></h3>
+          <h3>BMW M5 Compétition</h3>
+          <p>La M5 Competition est généralement équipée d'un moteur V8 biturbo de 4,4 litres. La puissance peut varier entre les modèles, mais elle est généralement plus élevée que celle de la M5 standard.</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="car">
+      <a href="ferrari.php" target="_blank">
+        <img src="car2.jpg" alt="à partir de 141 950$">
+        <div class="car-info">
+          <h3><img src="https://cdn.automobile-propre.com/uploads/2013/02/bmw-i8_001.jpg"
+              alt="BMW I8"></h3>
+          <h3>BMW I8</h3>
+          <p>La BMW i8 est équipée d'un groupe motopropulseur hybride combinant un moteur à combustion interne et un moteur électrique. Le moteur à combustion est un moteur trois cylindres TwinPower Turbo, tandis que le moteur électrique fournit une propulsion électrique à l'essieu avant.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="car">
+      <a href="BMW.php" target="_blank">
+        <img src="https://cdn.drivek.com/configurator-imgs/cars/fr/Original/BMW/SERIES-3/41131_SEDAN-4-DOORS/bmw-serie-3-front-view.jpg"
+          alt="à partir de 50 400$">
+        <div class="car-info">
+          <h3>BMW Serie 3</h3>
+          <p>La Série 3 présente un design élégant et dynamique avec des lignes nettes et une silhouette sportive. Au fil des générations, la Série 3 a évolué tout en conservant son attrait esthétique caractéristique.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="car">
+      <a href="audi.php" target="_blank">
+        <img src="https://cdn.drivek.com/configurator-imgs/cars/fr/Original/BMW/X5/41502_SUV-VP-5-PORTES/bmw-x5-front-view.jpg"
+          alt="à partir de 88 500$">
+        <div class="car-info">
+          <h3>BMW X5</h3>
+          <p>Le BMW X5 présente un design élégant et athlétique. Il combine des lignes modernes avec des éléments de design caractéristiques de la gamme X de BMW, tels que la calandre en forme de haricot.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</body>
+
+</html>

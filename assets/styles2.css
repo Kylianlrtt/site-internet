@@ -1,0 +1,37 @@
+<style>
+    body {
+      overflow-y: auto;
+    }
+
+    .car-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .car {
+      width: 48%;
+      padding: 15px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .car img {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .car-info {
+      text-align: center;
+    }
+
+    .car:hover {
+      transform: scale(1.05);
+    }
+  </style>
