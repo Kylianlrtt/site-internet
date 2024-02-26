@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Entreprise Automobile</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .about-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Notre Entreprise Automobile</h1>
+    </header>
+
+    <section>
+        <img src="car_image.jpg" alt="Notre flotte de voitures" class="about-image">
+        <h2>Qui sommes nous </h2>
+        <p>
+            Bienvenue chez Pelras, votre partenaire de confiance dans le monde de l'automobile. Fondée en 1983, notre entreprise s'engage à fournir des véhicules de haute qualité et un service exceptionnel.</p>
+    
+    <p>Nous sommes passionnés par l'innovation, la qualité et la satisfaction de nos clients. Notre gamme de véhicules comprend une variété de modèles adaptés à tous les besoins, des voitures familiales aux véhicules tout-terrain.</p>
+    
+    <p>Avec des années d'expérience dans l'industrie automobile, nous sommes fiers de notre héritage et de notre engagement envers l'excellence. Découvrez notre collection de véhicules exceptionnels et explorez les avantages de choisir Pelras.</p>
+    </section>
+
+    <footer>
+        © 2024 Notre Entreprise Automobile. Tous droits réservés.
+    </footer>
+
+</body>
+</html>
